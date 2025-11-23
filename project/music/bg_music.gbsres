@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "82e7c0ba-d78c-4140-81f5-c9b4e48f4e66",
+  "name": "bg_music",
+  "symbol": "song_bg_music",
+  "filename": "bg_music.uge",
+  "settings": {},
+  "type": "uge"
+}

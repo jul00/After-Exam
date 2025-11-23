@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ff932ad4-26ca-4d38-80db-b2920e94733e",
+  "name": "boss-arena",
+  "symbol": "bg_boss_arena",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "boss-arena.png",
+  "tileColors": "",
+  "autoColor": false
+}

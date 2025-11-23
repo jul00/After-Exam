@@ -1,0 +1,78 @@
+{
+  "_resourceType": "script",
+  "id": "5a1b8dbb-4662-4466-8cba-ca105a918105",
+  "name": "book-attack-right",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Book-Attack-Right",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "c93455fe-cc20-49e2-9193-685c8d76da81"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.75,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "c27eea9e-11df-46ee-a3a8-f5041ef42fdf"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "projectile",
+        "spriteSheetId": "b9711fc3-aa02-44ed-870c-d23d9f9ecc7c",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "right",
+        "angle": 0,
+        "angleVariable": "V0",
+        "targetActorId": "$self$",
+        "initialOffset": 16,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 1,
+        "loopAnim": false,
+        "destroyOnHit": false,
+        "collisionGroup": "1",
+        "collisionMask": [
+          "1"
+        ],
+        "__collapse": false
+      },
+      "id": "827f78e5-223d-4085-a6a2-abe8a00a062e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.25,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "ebf28c6c-4fc7-4e31-bebe-2ea10a263715"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true,
+        "__collapse": false
+      },
+      "id": "977ca473-0fca-4d6f-bf6b-899a20828cb0"
+    }
+  ]
+}

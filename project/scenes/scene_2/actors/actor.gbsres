@@ -1,0 +1,96 @@
+{
+  "_resourceType": "actor",
+  "id": "6fb9b05d-c3d9-42cc-8fba-9301d308464d",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "84e37367-2cc6-429f-bf38-396a3a0a5207",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "aff7f75d-cc7e-41fb-8c7b-728bdf5674f6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Shielded",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "8b6efa83-c55e-4162-a6e5-114a55a128e1"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "4",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "L0",
+        "value": "0",
+        "minValue": 1,
+        "maxValue": 15,
+        "clamp": false,
+        "__collapse": true
+      },
+      "id": "b06cbf0f-dcad-499c-932b-5060ecf2e092"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "dafeb5e2-004c-406e-9f71-aaf7593c20c6",
+        "__collapse": true
+      },
+      "id": "45ee0be4-9afd-4859-aadc-e6b16bb03a1e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
+        "__collapse": true
+      },
+      "id": "f777de43-1b56-492e-88da-509e1c614f72"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "dcb791c2-4d56-46a9-9b5f-b11b2b267326"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Shielded",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "1955b960-c178-4a18-a2c2-d282867e30c7"
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 16,
+  "y": 16,
+  "_index": 1
+}

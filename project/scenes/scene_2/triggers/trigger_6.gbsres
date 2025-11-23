@@ -1,0 +1,67 @@
+{
+  "_resourceType": "trigger",
+  "id": "243ca5ce-8f55-4148-8b7e-62093a7a9e0d",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 0,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 20,
+  "height": 17,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "6fb9b05d-c3d9-42cc-8fba-9301d308464d",
+              "__collapse": true
+            },
+            "id": "828e134f-1836-41a6-a08d-f3be36b2d1e2"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "6fb9b05d-c3d9-42cc-8fba-9301d308464d",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "3f96f96b-db08-403a-95a4-9882120c8fff"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "6fb9b05d-c3d9-42cc-8fba-9301d308464d",
+              "spriteStateId": "Shielded",
+              "loopAnim": true
+            },
+            "id": "34894eed-c91c-4bb4-adaf-a2613df0fe9a"
+          }
+        ]
+      },
+      "id": "54faf783-bddc-45a1-8d3f-a8a44be02aa7"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

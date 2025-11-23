@@ -3,10 +3,11 @@
   "id": "d4b3e349-1a7e-4d26-817c-34d2573de804",
   "name": "map",
   "symbol": "bg_map",
-  "width": 64,
-  "height": 16,
-  "imageWidth": 512,
-  "imageHeight": 128,
+  "width": 60,
+  "height": 20,
+  "imageWidth": 480,
+  "imageHeight": 160,
   "filename": "map.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

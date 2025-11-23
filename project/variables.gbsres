@@ -7,9 +7,89 @@
       "symbol": "var_weapon_held"
     },
     {
+      "id": "1",
+      "name": "player-health",
+      "symbol": "var_player_health"
+    },
+    {
+      "id": "2",
+      "name": "player-pos-x",
+      "symbol": "var_player_pos_x_0"
+    },
+    {
+      "id": "3",
+      "name": "player-pos-y",
+      "symbol": "var_player_pos_y"
+    },
+    {
+      "id": "4",
+      "name": "random-num",
+      "symbol": "var_random_num"
+    },
+    {
+      "id": "5",
+      "name": "binary-total",
+      "symbol": "var_binary_total"
+    },
+    {
       "id": "bd15f0d4-cf00-4b17-a7e6-6ddad1c82a3f__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "f4db09f1-2a15-4e1e-ba52-6c1943343b9a__L0",
+      "name": "actor-hp",
+      "symbol": "var_actor_hp"
+    },
+    {
+      "id": "f4db09f1-2a15-4e1e-ba52-6c1943343b9a__L1",
+      "name": "actor-y",
+      "symbol": "var_actor_y"
+    },
+    {
+      "id": "f4db09f1-2a15-4e1e-ba52-6c1943343b9a__L2",
+      "name": "player-x",
+      "symbol": "var_player_x"
+    },
+    {
+      "id": "f4db09f1-2a15-4e1e-ba52-6c1943343b9a__L3",
+      "name": "player-y",
+      "symbol": "var_player_y"
+    },
+    {
+      "id": "045e0fcb-7f30-4e91-9d1d-0d2fe62995e3__L0",
+      "name": "num_board",
+      "symbol": "var_num_board"
+    },
+    {
+      "id": "b099b715-e44e-426d-bd94-424a59cadccd__L0",
+      "name": "num_board",
+      "symbol": "var_num_board_0"
+    },
+    {
+      "id": "e62be0fb-0c15-425e-a04e-4d71f33b4b2b__L0",
+      "name": "num_board",
+      "symbol": "var_num_board_1"
+    },
+    {
+      "id": "6",
+      "name": "binary4-hit",
+      "symbol": "var_binary4_hit"
+    },
+    {
+      "id": "7",
+      "name": "binary2-hit",
+      "symbol": "var_binary2_hit"
+    },
+    {
+      "id": "8",
+      "name": "binary1-hit",
+      "symbol": "var_binary1_hit"
+    },
+    {
+      "id": "9",
+      "name": "binary8-hit",
+      "symbol": "var_binary8_hit"
     }
   ]
 }

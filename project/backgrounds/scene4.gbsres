@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a33b88be-b346-448b-9a8a-75a95f21f66c",
+  "name": "scene4",
+  "symbol": "bg_scene4",
+  "width": 64,
+  "height": 18,
+  "imageWidth": 512,
+  "imageHeight": 144,
+  "filename": "scene4.png",
+  "tileColors": ""
+}

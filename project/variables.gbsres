@@ -57,6 +57,11 @@
       "symbol": "var_binary_canhit"
     },
     {
+      "id": "11",
+      "name": "boss-attacking",
+      "symbol": "var_boss_attacking"
+    },
+    {
       "id": "bd15f0d4-cf00-4b17-a7e6-6ddad1c82a3f__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -100,11 +105,6 @@
       "id": "9d14b699-8203-4722-97b0-0e5553ac03ec__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
-    },
-    {
-      "id": "11",
-      "name": "boss-attacking",
-      "symbol": "var_boss_attacking"
     }
   ]
 }

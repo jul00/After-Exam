@@ -117,7 +117,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -133,9 +133,9 @@
                 "type": "number",
                 "value": 8
               },
-              "moveType": "horizontal",
+              "moveType": "diagonal",
               "useCollisions": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "1477b5b6-47c1-4245-bc4f-19875d18d553"
           }
@@ -172,7 +172,7 @@
                       "type": "number",
                       "value": 8
                     },
-                    "moveType": "horizontal",
+                    "moveType": "diagonal",
                     "useCollisions": false
                   },
                   "id": "d972a8b6-162d-4f3d-96a2-9a5a4a0d5c67"

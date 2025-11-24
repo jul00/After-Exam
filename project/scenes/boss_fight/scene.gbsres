@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "34ebe0e2-7456-45f1-aeba-30f188fbded6",
   "_index": 0,
-  "name": "Scene 2",
+  "name": "Boss Fight",
   "backgroundId": "ff932ad4-26ca-4d38-80db-b2920e94733e",
   "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
   "width": 20,
@@ -13,8 +13,8 @@
   "collisions": "0058+024+0010+0f4+0010+0f4+00e+0f8+005b+01a+005+0f!0013+0f!0013+0f!012+0011+0f!0013+0f14+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 584,
-  "y": 32,
+  "x": 1784,
+  "y": 232,
   "script": [
     {
       "command": "EVENT_SET_VALUE",

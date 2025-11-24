@@ -8,7 +8,7 @@
   "symbol": "trigger_5",
   "prefabScriptOverrides": {},
   "width": 20,
-  "height": 17,
+  "height": 18,
   "script": [
     {
       "command": "EVENT_IF",

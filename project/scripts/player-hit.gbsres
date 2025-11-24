@@ -8,24 +8,6 @@
   "symbol": "script_7",
   "script": [
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "left",
-          "up",
-          "down",
-          "right"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
-      },
-      "children": {
-        "true": []
-      },
-      "id": "9fda8e5a-f5d7-4700-9bf4-4fbcf1babf8f"
-    },
-    {
       "command": "EVENT_DEC_VALUE",
       "args": {
         "variable": "1",
@@ -116,19 +98,6 @@
         "__collapse": true
       },
       "id": "942daf68-90f8-4f79-ba06-b9d5f3e7db7c"
-    },
-    {
-      "command": "EVENT_REMOVE_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "left",
-          "up",
-          "down",
-          "right"
-        ],
-        "__collapse": true
-      },
-      "id": "4ed6d8e7-7477-4ecf-9f87-7c9550b3662e"
     }
   ]
 }

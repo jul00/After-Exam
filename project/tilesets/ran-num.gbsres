@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "21859672-0d47-4c27-83d6-fe8b898958d3",
+  "name": "ran-num",
+  "symbol": "tileset_ran_num",
+  "width": 10,
+  "height": 4,
+  "imageWidth": 80,
+  "imageHeight": 32,
+  "filename": "ran-num.png"
+}

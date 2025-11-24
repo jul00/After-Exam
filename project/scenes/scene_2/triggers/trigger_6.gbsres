@@ -24,7 +24,8 @@
             "value": "4"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -45,6 +46,17 @@
               "__collapse": true
             },
             "id": "3f96f96b-db08-403a-95a4-9882120c8fff"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": false
+            },
+            "id": "625c6f36-8bd9-4da8-9d96-726bde8da0a1"
           }
         ],
         "false": [
@@ -56,6 +68,17 @@
               "loopAnim": true
             },
             "id": "34894eed-c91c-4bb4-adaf-a2613df0fe9a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": false
+            },
+            "id": "53977cf4-e0d1-4f37-bd35-aa19bbb92710"
           }
         ]
       },

@@ -49,7 +49,8 @@
         "destroyOnHit": false,
         "collisionGroup": "1",
         "collisionMask": [
-          "1"
+          "1",
+          "2"
         ],
         "__collapse": false
       },
@@ -70,7 +71,7 @@
         "actorId": "$self$",
         "spriteStateId": "",
         "loopAnim": true,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "ce87f566-5e17-4b8c-943d-aeb8ecc5de0d"
     }

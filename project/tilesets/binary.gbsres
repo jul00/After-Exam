@@ -1,8 +1,8 @@
 {
   "_resourceType": "tileset",
-  "id": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+  "id": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
   "name": "binary",
-  "symbol": "tileset_binary",
+  "symbol": "tileset_binary_screen",
   "width": 4,
   "height": 2,
   "imageWidth": 32,

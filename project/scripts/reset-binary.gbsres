@@ -74,12 +74,12 @@
           "type": "number",
           "value": 9
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "31992eab-136d-49d2-8b3f-233e88bc8129"
     },
@@ -94,12 +94,12 @@
           "type": "number",
           "value": 9
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "42019a9b-e3cf-4f8f-9356-9c23b8956c45"
     },
@@ -114,12 +114,12 @@
           "type": "number",
           "value": 10
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 4
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3c857ae2-88f0-4f6d-a79f-1c1489b8f536"
     },
@@ -134,12 +134,12 @@
           "type": "number",
           "value": 10
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 5
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "559861b4-bed0-460c-9f9b-9f548ff8797f"
     },
@@ -154,12 +154,12 @@
           "type": "number",
           "value": 9
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "8030db2c-b010-4b76-bfc4-a17ec162aa1e"
     },
@@ -174,12 +174,12 @@
           "type": "number",
           "value": 9
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "5777a8dc-db52-49c8-ba54-22e2f3cfa16f"
     },
@@ -194,12 +194,12 @@
           "type": "number",
           "value": 10
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 4
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ea6ff395-b40b-4cdd-908e-8dd06d03d75c"
     },
@@ -214,12 +214,12 @@
           "type": "number",
           "value": 10
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 5
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "5b4c2ef0-8c15-4668-b4ad-ff244de74224"
     },
@@ -234,7 +234,7 @@
           "type": "number",
           "value": 9
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 0
@@ -254,7 +254,7 @@
           "type": "number",
           "value": 9
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 1
@@ -274,12 +274,12 @@
           "type": "number",
           "value": 10
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 4
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9be140f7-1fc7-4ebc-a02d-6f929182982f"
     },
@@ -294,12 +294,12 @@
           "type": "number",
           "value": 10
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 5
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ce635d83-d1af-40fd-89ed-49a2e670488e"
     },
@@ -314,7 +314,7 @@
           "type": "number",
           "value": 9
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 0
@@ -334,7 +334,7 @@
           "type": "number",
           "value": 9
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 1
@@ -354,12 +354,12 @@
           "type": "number",
           "value": 10
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 4
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "f9830bdc-1f5d-48a0-89d8-0e4ada06c373"
     },
@@ -374,12 +374,12 @@
           "type": "number",
           "value": 10
         },
-        "tilesetId": "ec81ea92-8fbf-4681-9992-b02399505c9a",
+        "tilesetId": "cbb26eaf-2fa1-4b03-85eb-a535c8d68568",
         "tileIndex": {
           "type": "number",
           "value": 5
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "37060839-d444-4cfb-af2e-c1337ae1027e"
     }

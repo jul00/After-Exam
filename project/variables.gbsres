@@ -32,6 +32,31 @@
       "symbol": "var_binary_total"
     },
     {
+      "id": "6",
+      "name": "binary4-hit",
+      "symbol": "var_binary4_hit"
+    },
+    {
+      "id": "7",
+      "name": "binary2-hit",
+      "symbol": "var_binary2_hit"
+    },
+    {
+      "id": "8",
+      "name": "binary1-hit",
+      "symbol": "var_binary1_hit"
+    },
+    {
+      "id": "9",
+      "name": "binary8-hit",
+      "symbol": "var_binary8_hit"
+    },
+    {
+      "id": "10",
+      "name": "binary-canhit",
+      "symbol": "var_binary_canhit"
+    },
+    {
       "id": "bd15f0d4-cf00-4b17-a7e6-6ddad1c82a3f__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -72,24 +97,14 @@
       "symbol": "var_num_board_1"
     },
     {
-      "id": "6",
-      "name": "binary4-hit",
-      "symbol": "var_binary4_hit"
+      "id": "9d14b699-8203-4722-97b0-0e5553ac03ec__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     },
     {
-      "id": "7",
-      "name": "binary2-hit",
-      "symbol": "var_binary2_hit"
-    },
-    {
-      "id": "8",
-      "name": "binary1-hit",
-      "symbol": "var_binary1_hit"
-    },
-    {
-      "id": "9",
-      "name": "binary8-hit",
-      "symbol": "var_binary8_hit"
+      "id": "11",
+      "name": "boss-attacking",
+      "symbol": "var_boss_attacking"
     }
   ]
 }

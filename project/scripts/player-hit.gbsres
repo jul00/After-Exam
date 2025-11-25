@@ -16,6 +16,19 @@
       "id": "dc222d5a-1452-4b30-8b87-00bc4592fe0e"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "5e58bd6d-ce6c-44a4-8a28-4e38af9b34cf",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "f3fb9a9b-3ef0-4e1b-8f74-cddff240910b"
+    },
+    {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
         "actorId": "$self$",

@@ -66,6 +66,19 @@
       "id": "01ae4ba3-1352-4de8-a38e-ec7676182115"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "0ff79545-d37e-4208-baf2-cf1dd8ff2663",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "eb2cb130-2dae-4e41-a763-965fb5d3b165"
+    },
+    {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",

@@ -24,7 +24,7 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ade04b31-1b53-428b-8c87-575353f79e6e"
     },
@@ -32,9 +32,22 @@
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "51bc5c08-bdd5-4ec4-951b-0318c7bc3dea"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "48e27e95-c918-4a12-a75e-be3544a57ade",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "139edc54-a5f4-444d-b949-57b71a8c0d19"
     }
   ],
   "startScript": [],

@@ -83,6 +83,13 @@
         ]
       },
       "id": "54faf783-bddc-45a1-8d3f-a8a44be02aa7"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4e438b12-3432-42da-abbe-f858a876e515"
+      },
+      "id": "f0ccd294-110a-4297-8312-baa55bb6de4c"
     }
   ],
   "leaveScript": [],

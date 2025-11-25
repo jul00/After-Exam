@@ -1,0 +1,74 @@
+{
+  "_resourceType": "trigger",
+  "id": "7b5f655a-1e78-44c3-9506-c9f3c6e19342",
+  "name": "",
+  "prefabId": "",
+  "x": 22,
+  "y": 0,
+  "symbol": "trigger_14",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 14,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Press A to jump!\nTry jumping on top\nof the mushroom."
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "2cd6a999-af4c-44e7-904c-3f5f182767c1"
+          }
+        ],
+        "false": []
+      },
+      "id": "45a4dcf6-7cf9-43fb-859d-f9f7bbff7848"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "796919b2-9bfa-4ab2-9174-09d4cc035c42"
+    }
+  ],
+  "_index": 2
+}

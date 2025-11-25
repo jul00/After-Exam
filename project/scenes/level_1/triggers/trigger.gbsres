@@ -1,6 +1,6 @@
 {
   "_resourceType": "trigger",
-  "id": "425fd602-bccf-4779-bb9b-236a783a8d64",
+  "id": "3004f1a2-6892-428a-a444-587680610157",
   "name": "",
   "prefabId": "",
   "x": 95,
@@ -25,7 +25,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "a134c923-108e-481d-8222-b44a33f9d72d"
+      "id": "555d2161-c8ec-4623-b9f5-ca2c2afa78d3"
     }
   ],
   "leaveScript": [],

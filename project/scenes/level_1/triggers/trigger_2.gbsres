@@ -1,0 +1,103 @@
+{
+  "_resourceType": "trigger",
+  "id": "7ac3de78-e15a-498e-9237-a87734955bb8",
+  "name": "",
+  "prefabId": "",
+  "x": 68,
+  "y": 0,
+  "symbol": "trigger_13",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 12,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "d72e608f-9819-47c3-bfb3-8183cf7b1f5f",
+        "speed": 1,
+        "__collapse": false
+      },
+      "id": "4122806e-3347-4fe1-863b-977600e7e36f"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "d72e608f-9819-47c3-bfb3-8183cf7b1f5f",
+        "speed": 7,
+        "__collapse": false
+      },
+      "id": "54cc4dfb-3a41-417d-8244-826467a3ed47"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "d72e608f-9819-47c3-bfb3-8183cf7b1f5f",
+        "spriteStateId": "aggro",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "827d350a-365c-42dd-b9f6-badad465607c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Be careful!There's\nan enemy nearby",
+                "Swing your bag at\nit to defeat it!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "cdef928e-20b8-40cf-8c2e-afc01afd4a51"
+          }
+        ],
+        "false": []
+      },
+      "id": "78180961-ee02-4200-b5f5-90315520f7d8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "4f79ad53-4944-4cb1-995e-2f945fe55156"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

@@ -4,6 +4,42 @@
     {
       "id": "fade_style",
       "value": 0
+    },
+    {
+      "id": "plat_run_acc",
+      "value": 148
+    },
+    {
+      "id": "plat_walk_acc",
+      "value": 113
+    },
+    {
+      "id": "plat_climb_vel",
+      "value": 3901
+    },
+    {
+      "id": "plat_walk_vel",
+      "value": 5464
+    },
+    {
+      "id": "plat_min_vel",
+      "value": 326
+    },
+    {
+      "id": "plat_grav",
+      "value": 1541
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 12567
+    },
+    {
+      "id": "plat_dec",
+      "value": 354
+    },
+    {
+      "id": "plat_hold_grav",
+      "value": 386
     }
   ]
 }

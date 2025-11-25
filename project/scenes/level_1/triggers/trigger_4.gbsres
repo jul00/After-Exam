@@ -1,0 +1,95 @@
+{
+  "_resourceType": "trigger",
+  "id": "89185e3b-5d95-4a23-ad53-77ef1e7aa78f",
+  "name": "",
+  "prefabId": "",
+  "x": 32,
+  "y": 0,
+  "symbol": "trigger_16",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 14,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "not",
+            "value": {
+              "type": "variable",
+              "value": "L0"
+            }
+          },
+          "valueB": {
+            "type": "not",
+            "value": {
+              "type": "variable",
+              "value": "T1"
+            }
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Walk over to the \nbag to pick it up!"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "ce7dd5c9-b6ef-4342-99ad-5deca997833d"
+          }
+        ],
+        "false": []
+      },
+      "id": "6231f067-c5fb-4e8a-a798-b5fee628450a"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false
+      },
+      "id": "35dd02e1-2223-4df8-b2a8-2238020b3d3e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "T1",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "de6e3fd8-3ce5-468f-9f29-90dddbef79c6"
+    }
+  ],
+  "_index": 3
+}

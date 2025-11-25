@@ -1,0 +1,63 @@
+{
+  "_resourceType": "trigger",
+  "id": "ed34682b-f79a-465b-8e02-22859aab7c64",
+  "name": "",
+  "prefabId": "",
+  "x": 39,
+  "y": 0,
+  "symbol": "trigger_17",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 13,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Swing your bag and\nattack by pres-\nsing A!"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "7164b1a5-9977-42e5-a30d-d7d6c0e5b88b"
+          }
+        ],
+        "false": []
+      },
+      "id": "061cca12-8c2f-4a5b-82d1-84a88e2f77dc"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

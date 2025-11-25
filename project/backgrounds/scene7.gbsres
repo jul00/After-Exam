@@ -8,5 +8,6 @@
   "imageWidth": 512,
   "imageHeight": 144,
   "filename": "scene7.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

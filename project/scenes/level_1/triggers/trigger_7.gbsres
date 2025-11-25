@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "56aa9b5b-7989-477b-8946-14ba554eddeb",
+  "name": "",
+  "prefabId": "",
+  "x": 59,
+  "y": 0,
+  "symbol": "trigger_15",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 12,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You can climb on \ntrees by pressing\nup!",
+                "You can also walk\non the branches!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a0f02880-f93b-4f1a-a99e-e307fc0cff3c"
+          }
+        ],
+        "false": []
+      },
+      "id": "ed414565-89b4-4230-bb4e-5dab051e767a"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "b48f72b4-c37a-4b84-9c4e-932395662974"
+    }
+  ],
+  "_index": 6
+}

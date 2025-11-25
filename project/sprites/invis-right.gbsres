@@ -93,9 +93,9 @@
   "numTiles": 0,
   "canvasWidth": 48,
   "canvasHeight": 16,
-  "boundsX": 20,
+  "boundsX": 18,
   "boundsY": 3,
-  "boundsWidth": 9,
-  "boundsHeight": 9,
+  "boundsWidth": 11,
+  "boundsHeight": 11,
   "animSpeed": 15
 }

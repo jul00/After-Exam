@@ -3,7 +3,13 @@
   "id": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
   "name": "enemy-hit-blink",
   "description": "",
-  "variables": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
   "actors": {
     "0": {
       "id": "0",
@@ -13,63 +19,94 @@
   "symbol": "script_0",
   "script": [
     {
-      "command": "EVENT_ACTOR_HIDE",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "0",
-        "__collapse": true
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "2478b6d8-6618-48d5-a5ee-3858e1be8c3e"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.2,
-        "frames": 30,
-        "__collapse": true
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "fff87d78-61c2-44a7-9e77-b1eb2f618ab4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "0",
+              "__collapse": true
+            },
+            "id": "2478b6d8-6618-48d5-a5ee-3858e1be8c3e"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "d6613f8d-1981-4bad-81da-8ae641a74fbb"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "0",
+              "__collapse": true
+            },
+            "id": "f94e1afe-5cfc-45f5-aaef-bbade6c8c744"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "06be79d8-698a-4d31-9f2d-95885dc9dad7"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "0",
+              "__collapse": true
+            },
+            "id": "d2313762-84a0-4ede-b0ef-3bdabce9edcf"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "2c4a0cc5-7738-4f01-9cae-648e1697fc20"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "0",
+              "__collapse": true
+            },
+            "id": "e8e22a3b-4e58-4cc4-a2f9-a6d0e12f7041"
+          }
+        ]
       },
-      "id": "d6613f8d-1981-4bad-81da-8ae641a74fbb"
-    },
-    {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "0",
-        "__collapse": true
-      },
-      "id": "f94e1afe-5cfc-45f5-aaef-bbade6c8c744"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.2,
-        "frames": 30,
-        "__collapse": true
-      },
-      "id": "06be79d8-698a-4d31-9f2d-95885dc9dad7"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "0",
-        "__collapse": true
-      },
-      "id": "d2313762-84a0-4ede-b0ef-3bdabce9edcf"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.2,
-        "frames": 30,
-        "__collapse": true
-      },
-      "id": "2c4a0cc5-7738-4f01-9cae-648e1697fc20"
-    },
-    {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "0",
-        "__collapse": true
-      },
-      "id": "e8e22a3b-4e58-4cc4-a2f9-a6d0e12f7041"
+      "id": "3bd2cd7b-dd9d-4b3b-a838-c9df8a18e97c"
     }
   ]
 }

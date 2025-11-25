@@ -105,6 +105,16 @@
       "id": "9d14b699-8203-4722-97b0-0e5553ac03ec__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "7b5f655a-1e78-44c3-9506-c9f3c6e19342__L0",
+      "name": "dialogue-shown",
+      "symbol": "var_dialogue_shown"
+    },
+    {
+      "id": "887be7fd-7ef8-46e7-85e0-40ee81937d1f__L0",
+      "name": "dialogue-shown",
+      "symbol": "var_dialogue_shown_0"
     }
   ]
 }

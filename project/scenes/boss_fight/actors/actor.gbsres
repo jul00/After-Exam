@@ -41,7 +41,7 @@
     {
       "command": "EVENT_VARIABLE_MATH",
       "args": {
-        "vectorX": "L0",
+        "vectorX": "12",
         "operation": "set",
         "other": "rnd",
         "vectorY": "L0",
@@ -72,7 +72,11 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
-        "__collapse": true
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "13"
+        }
       },
       "id": "f777de43-1b56-492e-88da-509e1c614f72"
     },
@@ -83,14 +87,6 @@
         "__collapse": true
       },
       "id": "45ee0be4-9afd-4859-aadc-e6b16bb03a1e"
-    },
-    {
-      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "dcb791c2-4d56-46a9-9b5f-b11b2b267326"
     },
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -109,7 +105,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "12"
           },
           "valueB": {
             "type": "number",
@@ -148,7 +144,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "L0"
+                  "value": "12"
                 },
                 "valueB": {
                   "type": "number",
@@ -180,21 +176,44 @@
               ],
               "false": [
                 {
-                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "command": "EVENT_IF",
                   "args": {
-                    "actorId": "$self$",
-                    "x": {
-                      "type": "number",
-                      "value": 17
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "12"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 2
+                      }
                     },
-                    "y": {
-                      "type": "number",
-                      "value": 16
-                    },
-                    "moveType": "horizontal",
-                    "useCollisions": false
+                    "__collapseElse": true
                   },
-                  "id": "5baafb18-934e-4d09-a220-59057ea07072"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 17
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 16
+                          },
+                          "moveType": "horizontal",
+                          "useCollisions": false
+                        },
+                        "id": "5baafb18-934e-4d09-a220-59057ea07072"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "78397cee-78ec-43ed-a49b-588160c2b962"
                 }
               ]
             },

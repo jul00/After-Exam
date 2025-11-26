@@ -13,19 +13,76 @@
   "collisions": "0030+10!00!10!003d+10!00!10!003d+10!00!10!003d+10!00!10!003d+10!00!10!013+003a+10!00!10!003d+10!00!10!003a+013+10!00!10!003d+10!00!10!0023+20!014+30!002+20!014+30!002+20!014+30!004+10!00!10!003d+10!00!10!013+003a+10!00!10!009+40!60!0f7+70!50!0029+10!00!10!005+40!60!0f2+00b+0f2+30!0026+10!00!10!00!40!60!0f2+0011+0f!30!002+20!0f4+30!002+20!0f16+30!00!20!0f5+0015+0f!004+0f!002+0f!004+0f!0014+0f!003+0f!0019+0f!004+0f!002+0f!004+0f!0014+0f!003+0f!0019+0f!004+0f!002+0f!004+0f!0014+0f!003+0f!0010+",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
-  "x": 726.8571428571429,
-  "y": 230.1714303152902,
+  "x": 728,
+  "y": 224,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "5e07cf43-85a8-46d8-ac53-037d0240f562"
+        "musicId": "5e07cf43-85a8-46d8-ac53-037d0240f562",
+        "__collapse": true
       },
       "id": "48582dbd-eb30-4d53-92a6-558c58b1e746"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": true
+      },
+      "id": "6589762b-693d-419c-a7a3-5ff1fc7d4bcc"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "12a6a0fb-eef7-4e8e-b71b-eaf704d573f7"
+            },
+            "id": "fa22268c-6e16-4362-85a6-f3097b2c9308"
+          }
+        ]
+      },
+      "id": "c75fae21-32e4-457e-8ad8-18a61dbb8ea9"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "ec1a3543-d5e3-48b2-9dad-0c18342f556f",
+        "frame": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": false
+      },
+      "id": "b7fb956a-3a5f-4bf7-8070-0775b6684516"
     }
   ],
   "playerHit1Script": [],
-  "playerHit2Script": [],
+  "playerHit2Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e8cffe7e-a498-4682-92e7-43912ca0f01e"
+      },
+      "id": "f1fb693b-f7a5-47dd-84d2-af8d7a1e6207"
+    }
+  ],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "af23e370-1246-4254-81ec-980a40b0b750"
+  "playerSpriteSheetId": "af23e370-1246-4254-81ec-980a40b0b750",
+  "autoFadeEventCollapse": true
 }

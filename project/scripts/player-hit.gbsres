@@ -8,14 +8,6 @@
   "symbol": "script_7",
   "script": [
     {
-      "command": "EVENT_DEC_VALUE",
-      "args": {
-        "variable": "1",
-        "__collapse": true
-      },
-      "id": "dc222d5a-1452-4b30-8b87-00bc4592fe0e"
-    },
-    {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
         "type": "5e58bd6d-ce6c-44a4-8a28-4e38af9b34cf",
@@ -24,17 +16,25 @@
         "frequency": 200,
         "duration": 0.5,
         "wait": true,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
       "id": "f3fb9a9b-3ef0-4e1b-8f74-cddff240910b"
     },
     {
-      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "command": "EVENT_VARIABLE_MATH",
       "args": {
-        "actorId": "$self$",
+        "vectorX": "1",
+        "operation": "sub",
+        "other": "val",
+        "vectorY": "V0",
+        "value": 1,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": false,
         "__collapse": true
       },
-      "id": "7bd163e4-9ff7-444b-9049-40869bf5e832"
+      "id": "ecdda73a-b99a-478f-a18e-0f39e0e7963d"
     },
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -88,12 +88,12 @@
       "id": "1d614717-ba4c-4d22-bdd0-abba23a3d759"
     },
     {
-      "command": "EVENT_ACTOR_SHOW",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "46a97a41-fc59-4775-8691-675344ab3d03"
+      "id": "37d67ea8-ee02-4fa1-9dcc-ecb988843054"
     },
     {
       "command": "EVENT_WAIT",
@@ -102,15 +102,15 @@
         "frames": 30,
         "__collapse": true
       },
-      "id": "fdb6b87c-d850-4584-aca5-83c68bd993db"
+      "id": "2884119a-3a80-4604-908c-6112b4d252a3"
     },
     {
-      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "command": "EVENT_ACTOR_SHOW",
       "args": {
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "942daf68-90f8-4f79-ba06-b9d5f3e7db7c"
+      "id": "46a97a41-fc59-4775-8691-675344ab3d03"
     },
     {
       "command": "EVENT_ACTOR_EMOTE",

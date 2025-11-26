@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "79f66f43-bb0d-416d-b3d3-27b54811d4b1",
+  "id": "233559f9-0eba-45b9-b80a-4337aa75ee58",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -8,17 +8,153 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 31,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "2",
   "prefabScriptOverrides": {},
-  "symbol": "actor_36",
-  "script": [],
-  "startScript": [],
+  "symbol": "actor_25",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "38f5a2f6-f68d-492c-8233-c7a145bb7568"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 3,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "e234da0f-63bf-451f-be05-6a999b8124f5"
+                }
+              ]
+            },
+            "id": "a095e0b1-fa38-44ee-817b-404d004e7e94"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "921c039d-41b5-4a22-a8fc-0575ce4ca1ef",
+              "__collapse": false,
+              "$actor[0]$": "88e8d16f-45da-4665-9201-45c53083c039"
+            },
+            "id": "94f0a3e4-2daa-493f-b500-fb7acf6ad253"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "88e8d16f-45da-4665-9201-45c53083c039",
+              "frame": {
+                "type": "variable",
+                "value": "1"
+              },
+              "__collapse": false
+            },
+            "id": "a2ff78c9-d1d5-40bb-a757-71fc1b748ff9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "bd114904-b974-46b2-acfc-d714241f972b",
+              "__collapse": false
+            },
+            "id": "c657f247-3ae3-4b38-914b-7031900b2842"
+          }
+        ]
+      },
+      "id": "be2d9d35-5b4f-47e0-adac-b492056da3eb"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": false
+      },
+      "id": "afe8f171-dd3c-4858-9fe3-8a65c06a2ff7"
+    }
+  ],
   "updateScript": [],
-  "hit1Script": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "L0",
+              "operation": "sub",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 1,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": true
+            },
+            "id": "bbfd07fd-258d-4501-8132-685d2b497b8d"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
+              "__collapse": true,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "id": "e5abb8e9-6ab5-4417-b1e3-202035829be0"
+          }
+        ],
+        "false": []
+      },
+      "id": "ecbfdb75-9c6d-4f67-acb1-f9599a815fd8"
+    }
+  ],
   "hit2Script": [],
   "hit3Script": [],
   "x": 19,

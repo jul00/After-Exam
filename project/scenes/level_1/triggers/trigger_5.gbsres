@@ -3,7 +3,7 @@
   "id": "ed34682b-f79a-465b-8e02-22859aab7c64",
   "name": "",
   "prefabId": "",
-  "x": 39,
+  "x": 43,
   "y": 0,
   "symbol": "trigger_17",
   "prefabScriptOverrides": {},
@@ -30,9 +30,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Swing your bag and\nattack by pres-\nsing A!"
+                "Swing your bag and\nattack by pres-\nsing \\377!"
               ],
-              "__section": "behavior",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -58,6 +58,17 @@
       "id": "061cca12-8c2f-4a5b-82d1-84a88e2f77dc"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "b344f68c-7b89-42ab-a306-1e4f6f8b427d"
+    }
+  ],
   "_index": 4
 }

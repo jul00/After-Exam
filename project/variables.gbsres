@@ -115,6 +115,16 @@
       "id": "887be7fd-7ef8-46e7-85e0-40ee81937d1f__L0",
       "name": "dialogue-shown",
       "symbol": "var_dialogue_shown_0"
+    },
+    {
+      "id": "12",
+      "name": "boss-pos",
+      "symbol": "var_boss_pos"
+    },
+    {
+      "id": "13",
+      "name": "boss-hp",
+      "symbol": "var_boss_hp"
     }
   ]
 }

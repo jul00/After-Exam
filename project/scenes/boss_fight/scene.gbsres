@@ -29,6 +29,53 @@
       "id": "16b0d021-8728-44c6-a3eb-03d3f056d31f"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "2cbc1bbf-af99-4a51-9cd9-2c91d57b5f53"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": true
+      },
+      "id": "a1b3578f-524e-4dab-a6b5-bf81ea217b33"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "42ea2f7a-0829-489e-97e5-466fcbe221bd"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "254dfbcd-1d32-47ec-a79f-fc5a37b71634",
+        "frame": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": true
+      },
+      "id": "b49b640a-af62-4c27-9904-aa0dc116df5e"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -140,9 +187,39 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "e8cffe7e-a498-4682-92e7-43912ca0f01e"
+        "customEventId": "bd114904-b974-46b2-acfc-d714241f972b",
+        "__collapse": true
+      },
+      "id": "6c3ce316-b108-4ad1-8dc1-3e46ba6efcf9"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e8cffe7e-a498-4682-92e7-43912ca0f01e",
+        "__collapse": true
       },
       "id": "7e24be6b-dd3c-48e4-b128-9fbcfb3c32f7"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "921c039d-41b5-4a22-a8fc-0575ce4ca1ef",
+        "__collapse": true,
+        "$actor[0]$": "254dfbcd-1d32-47ec-a79f-fc5a37b71634"
+      },
+      "id": "704cfd34-92d3-45f5-bd97-856018ad1954"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "254dfbcd-1d32-47ec-a79f-fc5a37b71634",
+        "frame": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": true
+      },
+      "id": "eb8a38d6-ce70-4a69-af75-ac60a5aaa09c"
     }
   ],
   "playerHit3Script": [],

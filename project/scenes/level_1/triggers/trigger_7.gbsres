@@ -3,7 +3,7 @@
   "id": "56aa9b5b-7989-477b-8946-14ba554eddeb",
   "name": "",
   "prefabId": "",
-  "x": 59,
+  "x": 56,
   "y": 0,
   "symbol": "trigger_15",
   "prefabScriptOverrides": {},
@@ -30,7 +30,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You can climb on \ntrees by pressing\nup!",
+                "You can climb on \ntrees by pressing\n\\372!",
                 "You can also walk\non the branches!"
               ],
               "__section": "text",
@@ -49,7 +49,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a0f02880-f93b-4f1a-a99e-e307fc0cff3c"
           }

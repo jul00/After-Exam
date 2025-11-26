@@ -1,23 +1,33 @@
 {
   "_resourceType": "trigger",
-  "id": "344a619c-2941-4f59-a28a-089bb6d072a0",
+  "id": "360b1e3c-677f-40a5-ae6d-4031f14a4272",
   "name": "",
   "prefabId": "",
-  "x": 7,
-  "y": 13,
-  "symbol": "trigger_18",
+  "x": 2,
+  "y": 0,
+  "symbol": "trigger_30",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 1,
+  "height": 14,
   "script": [
     {
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "L0"
+          "type": "and",
+          "valueA": {
+            "type": "not",
+            "value": {
+              "type": "variable",
+              "value": "L0"
+            }
+          },
+          "valueB": {
+            "type": "not",
+            "value": {
+              "type": "variable",
+              "value": "T1"
+            }
           }
         },
         "__collapseElse": true,
@@ -30,7 +40,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Move by pressing \n\\374 or \\375!"
+                "Walk over to the \nblue book to pick it up!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -50,12 +60,12 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "722f6b28-0618-4213-b7d6-6e026ba95bea"
+            "id": "9ea154e3-b7ae-4f9f-8ac4-95f42c22be1d"
           }
         ],
         "false": []
       },
-      "id": "663e8a1a-4379-4370-b491-d789a66294a2"
+      "id": "8797f1e6-0821-47b4-810d-f5ab60134999"
     }
   ],
   "leaveScript": [
@@ -65,10 +75,22 @@
         "variable": "L0",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
-      "id": "83677a25-b720-4714-9cd1-fae537c7f3b7"
+      "id": "20f3fa21-3708-46de-814b-a8ea5b15d7ec"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "T1",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "6f50dadd-baac-4e7b-83f4-d5d9eaf20fc8"
     }
   ],
-  "_index": 5
+  "_index": 3
 }

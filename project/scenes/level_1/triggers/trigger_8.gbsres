@@ -3,7 +3,7 @@
   "id": "fc993827-103e-41a2-bff2-4658af63fe0a",
   "name": "",
   "prefabId": "",
-  "x": 84,
+  "x": 81,
   "y": 0,
   "symbol": "trigger_19",
   "prefabScriptOverrides": {},
@@ -15,7 +15,8 @@
       "args": {
         "actorId": "1ecb8a05-de0b-44f0-81cd-cdc9ade2dd5d",
         "spriteStateId": "aggro",
-        "loopAnim": true
+        "loopAnim": true,
+        "__collapse": true
       },
       "id": "06c937c9-31b2-4640-bef0-c2234e035b67"
     },
@@ -24,7 +25,7 @@
       "args": {
         "actorId": "1ecb8a05-de0b-44f0-81cd-cdc9ade2dd5d",
         "speed": 1,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "34debf87-605c-4d13-acf9-d55db69ee7c8"
     },
@@ -32,7 +33,8 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "1ecb8a05-de0b-44f0-81cd-cdc9ade2dd5d",
-        "speed": 7
+        "speed": 7,
+        "__collapse": true
       },
       "id": "2e820d55-d7dc-4ec1-96df-39748bfeef4f"
     }

@@ -15,7 +15,7 @@
       "args": {
         "actorId": "d72e608f-9819-47c3-bfb3-8183cf7b1f5f",
         "speed": 1,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "4122806e-3347-4fe1-863b-977600e7e36f"
     },
@@ -24,7 +24,7 @@
       "args": {
         "actorId": "d72e608f-9819-47c3-bfb3-8183cf7b1f5f",
         "speed": 7,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "54cc4dfb-3a41-417d-8244-826467a3ed47"
     },
@@ -49,7 +49,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true,
+        "__collapse": false,
         "__disableElse": true
       },
       "children": {
@@ -58,7 +58,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Be careful!There's\nan enemy nearby",
+                "Be careful! There's\nan enemy nearby.",
                 "Swing your bag at\nit to defeat it!"
               ],
               "__section": "text",

@@ -15,9 +15,84 @@
   "symbol": "scene_8",
   "x": 1256,
   "y": 232,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "5e07cf43-85a8-46d8-ac53-037d0240f562",
+        "__collapse": true
+      },
+      "id": "1a6385e8-995f-4179-8878-e489e808decc"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "12a6a0fb-eef7-4e8e-b71b-eaf704d573f7"
+            },
+            "id": "1507c197-f3ac-4ae5-922c-42025e1d4d3e"
+          }
+        ]
+      },
+      "id": "e783f9cc-81bc-4658-858c-f00e23ac54e7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": true
+      },
+      "id": "f8075991-a97f-4851-98ec-c4740681c506"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "5d96d145-fc8c-4c42-b7ee-a1c2aaae0a30",
+        "frame": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": true
+      },
+      "id": "7703d6f7-dc37-4955-84ac-edd3040604e0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "78888417-919b-49c9-a123-f66fa7d0d1fe",
+        "spriteStateId": "aggro",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "09de3ede-50fa-49dc-baa6-6e63c0e90627"
+    }
+  ],
   "playerHit1Script": [],
-  "playerHit2Script": [],
+  "playerHit2Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "__collapse": false
+      },
+      "id": "5c4a1d04-5c74-4942-a23f-1b3ab2484a7f"
+    }
+  ],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "af23e370-1246-4254-81ec-980a40b0b750"
+  "playerSpriteSheetId": "af23e370-1246-4254-81ec-980a40b0b750",
+  "autoFadeEventCollapse": true
 }

@@ -3,7 +3,7 @@
   "id": "89185e3b-5d95-4a23-ad53-77ef1e7aa78f",
   "name": "",
   "prefabId": "",
-  "x": 32,
+  "x": 36,
   "y": 0,
   "symbol": "trigger_16",
   "prefabScriptOverrides": {},
@@ -76,7 +76,7 @@
         "value": {
           "type": "true"
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "35dd02e1-2223-4df8-b2a8-2238020b3d3e"
     },
@@ -86,7 +86,8 @@
         "variable": "T1",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "de6e3fd8-3ce5-468f-9f29-90dddbef79c6"
     }

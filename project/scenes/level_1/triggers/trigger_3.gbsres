@@ -30,9 +30,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Press A to jump!\nTry jumping on top\nof the mushroom."
+                "Press \\376 to jump!\nTry jumping on top\nof the mushroom."
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -65,7 +65,8 @@
         "variable": "L0",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "796919b2-9bfa-4ab2-9174-09d4cc035c42"
     }

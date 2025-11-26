@@ -1,33 +1,72 @@
 {
   "_resourceType": "trigger",
-  "id": "71a38d70-1266-4a6e-bdf8-33241568f5cd",
+  "id": "eafc6edc-6288-4a8f-b9f9-d20ad0ea12a5",
   "name": "",
   "prefabId": "",
-  "x": 19,
+  "x": 9,
   "y": 17,
-  "symbol": "trigger_20",
+  "symbol": "trigger_23",
   "prefabScriptOverrides": {},
-  "width": 21,
+  "width": 10,
   "height": 1,
   "script": [
     {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "1",
+        "__collapse": true
+      },
+      "id": "a798266e-5383-4bfd-acd7-9f6cc21c7c1a"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "eeac32e7-0ef6-4fe1-9e56-cbd0d6915cf1",
+        "sceneId": "b0d5890f-5494-4c7b-9808-827ff88df2ce",
         "x": {
           "type": "number",
-          "value": 1
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 10
+          "value": 7
         },
         "direction": "right",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": false
       },
-      "id": "014c4632-e3f2-422b-b260-22a18ce88e15"
+      "id": "eedf6652-704a-463d-b4e1-a3f5e8cd59b5"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "921c039d-41b5-4a22-a8fc-0575ce4ca1ef",
+        "__collapse": false,
+        "$actor[0]$": "88e8d16f-45da-4665-9201-45c53083c039"
+      },
+      "id": "9aba599c-9b58-4a20-b3c5-29ff38450d22"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "88e8d16f-45da-4665-9201-45c53083c039",
+        "frame": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": false
+      },
+      "id": "72305395-2d24-4cc2-84e1-750736f016a9"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bd114904-b974-46b2-acfc-d714241f972b",
+        "__collapse": true
+      },
+      "id": "fdfb138a-69b4-4dcc-966e-5aeb3f040923"
+    }
+  ],
   "_index": 1
 }

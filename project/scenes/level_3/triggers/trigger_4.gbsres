@@ -3,7 +3,7 @@
   "id": "887be7fd-7ef8-46e7-85e0-40ee81937d1f",
   "name": "",
   "prefabId": "",
-  "x": 18,
+  "x": 14,
   "y": 0,
   "symbol": "trigger_22",
   "prefabScriptOverrides": {},
@@ -30,7 +30,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Be careful!\nIf you fall, you \nwill die!"
+                "Be careful!\nIf you fall, you will take\ndamage and start the \nlevel over!",
+                "If your hearts run out,\nyou will start the game \nover at level 1!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -65,9 +66,36 @@
         "variable": "L0",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "fc6550a8-ed8e-48ea-af7d-8811c48de805"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__comment": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "b0a4971a-1389-4e40-ade5-02c732e89955"
+            },
+            "id": "0ad0fc2c-c015-40f6-a0dd-03593141b9fa"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "8045e1d0-ac2e-4060-ac3a-4a8987c3526c"
+            },
+            "id": "981f1567-08ac-4170-bea7-7e7208226ba5"
+          }
+        ]
+      },
+      "id": "e11d5cbe-2055-4aeb-a0ef-3e4b50f839fb"
     }
   ],
   "_index": 3

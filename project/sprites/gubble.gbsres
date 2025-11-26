@@ -114,7 +114,65 @@
           "frames": [
             {
               "id": "74f991fd-5790-4270-8195-7661da30093f",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "f077c0e1-7975-472c-a157-05da05bac360",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "fb3bc926-81cf-4963-8589-4a842d191f9b",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "6253930b-3d21-4ed3-a2dc-7774916f8c66",
+              "tiles": [
+                {
+                  "id": "b1f1bb80-61cb-4a7d-a1d1-47f69e806762",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "498107c9-dc2b-4e1d-a679-cbeda0c1fcb6",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -150,10 +208,10 @@
   ],
   "numTiles": 4,
   "canvasWidth": 16,
-  "canvasHeight": 16,
-  "boundsX": 1,
+  "canvasHeight": 24,
+  "boundsX": 0,
   "boundsY": 0,
-  "boundsWidth": 13,
-  "boundsHeight": 16,
+  "boundsWidth": 16,
+  "boundsHeight": 24,
   "animSpeed": 15
 }

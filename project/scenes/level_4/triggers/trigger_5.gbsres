@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "344a619c-2941-4f59-a28a-089bb6d072a0",
+  "id": "7c43a4a2-2f39-44c9-9d1f-e5826782dc01",
   "name": "",
   "prefabId": "",
-  "x": 7,
-  "y": 13,
-  "symbol": "trigger_18",
+  "x": 8,
+  "y": 0,
+  "symbol": "trigger_31",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 1,
+  "height": 14,
   "script": [
     {
       "command": "EVENT_IF",
@@ -30,7 +30,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Move by pressing \n\\374 or \\375!"
+                "Shoot using your blue\nbook using \\373 \\377!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -50,12 +50,12 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "722f6b28-0618-4213-b7d6-6e026ba95bea"
+            "id": "175f0dd7-686a-461e-9aaf-34cbceb19022"
           }
         ],
         "false": []
       },
-      "id": "663e8a1a-4379-4370-b491-d789a66294a2"
+      "id": "f7c805ec-6586-4a7f-991a-bf2d258f9986"
     }
   ],
   "leaveScript": [
@@ -67,8 +67,34 @@
           "type": "true"
         }
       },
-      "id": "83677a25-b720-4714-9cd1-fae537c7f3b7"
+      "id": "76789d5c-b10c-4384-9099-d5f63312edeb"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__comment": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "b0a4971a-1389-4e40-ade5-02c732e89955"
+            },
+            "id": "3ebc0962-2737-4715-a7fa-576d825418fc"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "8045e1d0-ac2e-4060-ac3a-4a8987c3526c"
+            },
+            "id": "c3a92193-1b85-4a99-acce-4c0cbcd1d617"
+          }
+        ]
+      },
+      "id": "f6bc7f2f-d335-4960-bda8-d7933a8c6658"
     }
   ],
-  "_index": 5
+  "_index": 4
 }

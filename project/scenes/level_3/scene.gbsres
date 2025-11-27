@@ -50,6 +50,13 @@
         "__collapse": true
       },
       "id": "b8012f6d-eae2-4544-bce0-7a9bcdd2237f"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "dc06c7e2-372e-4679-829c-a9a4b0212625"
+      },
+      "id": "e87153db-0285-4dd5-8c3a-cd5e3d49efe7"
     }
   ],
   "playerHit1Script": [],

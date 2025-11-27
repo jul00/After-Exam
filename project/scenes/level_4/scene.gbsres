@@ -62,6 +62,13 @@
         ]
       },
       "id": "6cb0ffb8-2ca4-4689-b2d7-935a4cfda959"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "dc06c7e2-372e-4679-829c-a9a4b0212625"
+      },
+      "id": "fb2327ed-c624-4fa0-8e65-1ea1167d4b24"
     }
   ],
   "playerHit1Script": [],

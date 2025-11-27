@@ -20,9 +20,21 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "dc06c7e2-372e-4679-829c-a9a4b0212625",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "7755a69d-a29f-4a52-827e-1d0bba40155b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "T0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "28c23113-3f2b-497b-ac79-3f371e119ac9"
     },
     {
       "command": "EVENT_SET_VALUE",

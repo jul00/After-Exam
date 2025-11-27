@@ -98,13 +98,6 @@
         "__collapse": false
       },
       "id": "03a1cc54-ddbb-4f3a-b600-805d45f2522c"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "3789e20a-bf8e-4b14-a0cf-8c8921868e77"
     }
   ],
   "updateScript": [

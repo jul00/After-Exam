@@ -37,6 +37,30 @@
       "id": "6589762b-693d-419c-a7a3-5ff1fc7d4bcc"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "T0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "cd71a17c-46d4-4f52-a1a5-078d81ff5422"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": true
+      },
+      "id": "cf559dfe-64cc-49dd-abab-fe4bc5ea0509"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [

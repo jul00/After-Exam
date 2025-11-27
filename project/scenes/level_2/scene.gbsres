@@ -17,6 +17,18 @@
   "y": 48,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "T0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "e5a1a425-6eb8-4100-8622-f58495cdc315"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "b5d50170-ce3c-421d-bcc5-b23a2da97c3d",

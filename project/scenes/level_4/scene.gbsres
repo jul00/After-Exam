@@ -19,6 +19,18 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
+        "variable": "T0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "3a1a8aa9-d5ce-4ca2-8883-01b27c79b889"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
         "variable": "1",
         "value": {
           "type": "variable",

@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
   "x": 1256,
-  "y": 232,
+  "y": 224,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -58,6 +58,30 @@
         "__collapse": true
       },
       "id": "f8075991-a97f-4851-98ec-c4740681c506"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "T0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "0bd2eea0-8ca2-44af-bd67-4422cd2e6484"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "variable",
+          "value": "1"
+        },
+        "__collapse": true
+      },
+      "id": "6b1ee028-d03a-4c79-a00f-7d2e3eb2866a"
     },
     {
       "command": "EVENT_ACTOR_SET_FRAME",

@@ -57,14 +57,14 @@
             "args": {
               "customEventId": "921c039d-41b5-4a22-a8fc-0575ce4ca1ef",
               "__collapse": false,
-              "$actor[0]$": "88e8d16f-45da-4665-9201-45c53083c039"
+              "$actor[0]$": "ec1a3543-d5e3-48b2-9dad-0c18342f556f"
             },
             "id": "f1e44ca9-320d-4be3-9a6a-56d64a981c87"
           },
           {
             "command": "EVENT_ACTOR_SET_FRAME",
             "args": {
-              "actorId": "88e8d16f-45da-4665-9201-45c53083c039",
+              "actorId": "ec1a3543-d5e3-48b2-9dad-0c18342f556f",
               "frame": {
                 "type": "variable",
                 "value": "1"
@@ -93,7 +93,7 @@
         "variable": "L0",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 3
         },
         "__collapse": false
       },
@@ -297,10 +297,14 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
-              "__collapse": true,
+              "__collapse": false,
               "$variable[V0]$": {
                 "type": "variable",
                 "value": "L0"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "T0"
               }
             },
             "id": "4c2237e3-2a5b-4c32-9ced-3d9542ba20f4"
@@ -311,7 +315,60 @@
       "id": "832d9685-4430-42e6-bd41-ad21c845542f"
     }
   ],
-  "hit2Script": [],
+  "hit2Script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "L0",
+              "operation": "sub",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 2,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": false
+            },
+            "id": "70b77b2b-2e32-437e-b6ba-b79b767a11a6"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
+              "__collapse": true,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "id": "922bbac0-3fe2-4efa-b867-bea1e85ac8a1"
+          }
+        ],
+        "false": []
+      },
+      "id": "a8f88dc8-3838-4deb-bb2f-1d967f2de3d0"
+    }
+  ],
   "hit3Script": [],
   "x": 39,
   "y": 8,

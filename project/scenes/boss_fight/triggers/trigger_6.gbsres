@@ -8,8 +8,16 @@
   "symbol": "trigger_5",
   "prefabScriptOverrides": {},
   "width": 20,
-  "height": 18,
+  "height": 17,
   "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4e438b12-3432-42da-abbe-f858a876e515",
+        "__collapse": true
+      },
+      "id": "f0ccd294-110a-4297-8312-baa55bb6de4c"
+    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -85,13 +93,66 @@
       "id": "54faf783-bddc-45a1-8d3f-a8a44be02aa7"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
+      "command": "EVENT_IF",
       "args": {
-        "musicId": "4e438b12-3432-42da-abbe-f858a876e515"
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
       },
-      "id": "f0ccd294-110a-4297-8312-baa55bb6de4c"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Jump on top of the\nbits to turn them on\nor off!",
+                "The value of the bits\nmust correspond with \nthe number onscreen.",
+                "If you get the number\ncorrect, Sir Ren's\nshield will be down.",
+                "Hit Sir Ren five times\nto win!"
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "f225b20c-ea4f-48e4-a72b-98fd049adc26"
+          }
+        ],
+        "false": []
+      },
+      "id": "a7c41bd0-acf6-46c1-a266-2be9893e6438"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "cd070daa-7491-44b4-a9bf-51e2d4b2c678"
+    }
+  ],
   "_index": 5
 }

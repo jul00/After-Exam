@@ -22,10 +22,32 @@
           "type": "number",
           "value": 11
         },
-        "direction": "",
+        "direction": "right",
         "fadeSpeed": "2"
       },
       "id": "263619d3-33a9-4d44-910f-be0724bf1bff"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "95a8d346-fa74-4cad-bfaf-a7fe23cc5c14"
     }
   ],
   "leaveScript": [],

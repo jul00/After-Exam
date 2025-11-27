@@ -98,6 +98,17 @@
       "id": "4f79ad53-4944-4cb1-995e-2f945fe55156"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "81298b1c-5792-40e1-91c2-db925c0f858e"
+    }
+  ],
   "_index": 1
 }

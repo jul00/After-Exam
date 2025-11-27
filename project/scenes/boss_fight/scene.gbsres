@@ -19,29 +19,6 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "0",
-        "value": {
-          "type": "number",
-          "value": 3
-        },
-        "__collapse": true
-      },
-      "id": "16b0d021-8728-44c6-a3eb-03d3f056d31f"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "1",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "2cbc1bbf-af99-4a51-9cd9-2c91d57b5f53"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
         "variable": "1",
         "value": {
           "type": "variable",
@@ -132,8 +109,7 @@
               "destroyOnHit": true,
               "collisionGroup": "2",
               "collisionMask": [
-                "player",
-                "1"
+                "player"
               ],
               "__collapse": false
             },
@@ -180,6 +156,28 @@
         "__collapse": true
       },
       "id": "838008f9-112f-43ce-bc87-9c9568c7fb92"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "83b0c58c-d1cf-47d1-a5be-8b832f578840"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "70223509-b440-4276-81e0-4e89640eceaa"
     }
   ],
   "playerHit1Script": [],
@@ -188,7 +186,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bd114904-b974-46b2-acfc-d714241f972b",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "6c3ce316-b108-4ad1-8dc1-3e46ba6efcf9"
     },
@@ -217,7 +215,7 @@
           "type": "variable",
           "value": "1"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "eb8a38d6-ce70-4a69-af75-ac60a5aaa09c"
     }

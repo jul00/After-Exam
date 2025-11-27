@@ -26,6 +26,28 @@
         "fadeSpeed": "2"
       },
       "id": "1ba7c29b-34f1-40cb-9626-bfa8be2253bf"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "f7c6214d-6b2a-451e-9de2-7a7c8c83e93d"
     }
   ],
   "leaveScript": [],

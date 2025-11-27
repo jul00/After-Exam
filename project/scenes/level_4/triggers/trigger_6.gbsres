@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "b1a50a5d-b46c-483e-a585-edee7e5cf237",
+  "name": "",
+  "prefabId": "",
+  "x": 58,
+  "y": 0,
+  "symbol": "trigger_32",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 11,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Pet Casie to heal!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "9fb8dd59-7ce4-42f9-9d71-e43edaf43708"
+          }
+        ],
+        "false": []
+      },
+      "id": "3bef5d02-f1ec-46e5-aa1a-899bb87e5dbc"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "0b085c7c-51a8-4081-b09d-6ed2ad7966d3"
+    }
+  ],
+  "_index": 5
+}

@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "weapon-held",
-      "symbol": "var_weapon_held"
+      "symbol": "var_weapon_held_0"
     },
     {
       "id": "1",
@@ -62,6 +62,16 @@
       "symbol": "var_boss_attacking"
     },
     {
+      "id": "12",
+      "name": "boss-pos",
+      "symbol": "var_boss_pos"
+    },
+    {
+      "id": "13",
+      "name": "boss-hp",
+      "symbol": "var_boss_hp"
+    },
+    {
       "id": "bd15f0d4-cf00-4b17-a7e6-6ddad1c82a3f__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -115,16 +125,6 @@
       "id": "887be7fd-7ef8-46e7-85e0-40ee81937d1f__L0",
       "name": "dialogue-shown",
       "symbol": "var_dialogue_shown_0"
-    },
-    {
-      "id": "12",
-      "name": "boss-pos",
-      "symbol": "var_boss_pos"
-    },
-    {
-      "id": "13",
-      "name": "boss-hp",
-      "symbol": "var_boss_hp"
     }
   ]
 }

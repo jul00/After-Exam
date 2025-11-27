@@ -18,7 +18,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 0
+            "value": 1
           }
         },
         "__collapseElse": true
@@ -28,10 +28,10 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "a93f1ffe-7235-444f-abcc-201af99593bb",
+              "sceneId": "d7a2f4eb-75a3-4eaf-83c5-0f42cf4d0ea3",
               "x": {
                 "type": "number",
-                "value": 7
+                "value": 9
               },
               "y": {
                 "type": "number",

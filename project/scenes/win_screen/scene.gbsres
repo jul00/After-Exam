@@ -1,0 +1,60 @@
+{
+  "_resourceType": "scene",
+  "id": "52f5b6af-02b0-483d-876e-fbe5d4836276",
+  "_index": 10,
+  "name": "Win Screen",
+  "backgroundId": "ef0a288a-69e4-4177-a2e1-3f509e4d3fc2",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 1960,
+  "y": 392,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "right",
+          "down",
+          "up",
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "5cf6e79d-e3d9-4121-bd0d-82ae4df2949b",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "d1d303a9-0ef9-4d24-90f8-0f6178f1597f"
+          }
+        ]
+      },
+      "id": "537449d8-5728-42c8-97f0-bddd321d90f4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

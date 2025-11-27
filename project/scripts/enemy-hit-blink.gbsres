@@ -8,6 +8,11 @@
       "id": "V0",
       "name": "Variable A",
       "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
     }
   },
   "actors": {
@@ -22,7 +27,7 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "eq",
+          "type": "lte",
           "valueA": {
             "type": "variable",
             "value": "V0"
@@ -32,7 +37,8 @@
             "value": 0
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -55,9 +61,32 @@
               "actorId": "0"
             },
             "id": "fff87d78-61c2-44a7-9e77-b1eb2f618ab4"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "0",
+              "emoteId": "7b960bb1-aa16-49a1-bee4-51edbe4ba892"
+            },
+            "id": "9580c70a-2c39-4854-ad95-f1b4fe119506"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "V1"
+            },
+            "id": "e0fdca59-96bc-410a-ad73-05450620d163"
           }
         ],
         "false": [
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "0",
+              "__collapse": true
+            },
+            "id": "45c79637-1e03-4638-960d-571b6cbf590d"
+          },
           {
             "command": "EVENT_ACTOR_HIDE",
             "args": {
@@ -116,6 +145,23 @@
               "__collapse": true
             },
             "id": "e8e22a3b-4e58-4cc4-a2f9-a6d0e12f7041"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "0",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+              "__collapse": true
+            },
+            "id": "e99d8687-aa6a-4929-95eb-32b8869877ff"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "0",
+              "__collapse": true
+            },
+            "id": "9dc752a8-540e-4f05-97c1-ef1ad08bd9e0"
           }
         ]
       },

@@ -11,21 +11,45 @@
   "height": 11,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "6b935884-e1bb-43ed-a222-ec16b1007e46",
-        "x": {
-          "type": "number",
-          "value": 0
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "T0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 10
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": true
       },
-      "id": "52c4dcfa-ec76-453a-a472-fe5c1b3ba06f"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6b935884-e1bb-43ed-a222-ec16b1007e46",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "direction": "right",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "52c4dcfa-ec76-453a-a472-fe5c1b3ba06f"
+          }
+        ],
+        "false": []
+      },
+      "id": "72abf65a-d49e-4e39-bda8-5fa8bcec6b5b"
     }
   ],
   "leaveScript": [],

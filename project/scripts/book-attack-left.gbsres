@@ -47,7 +47,7 @@
         "lifeTime": 1,
         "loopAnim": false,
         "destroyOnHit": false,
-        "collisionGroup": "1",
+        "collisionGroup": "2",
         "collisionMask": [
           "1",
           "2"

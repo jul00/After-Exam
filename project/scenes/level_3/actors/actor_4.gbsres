@@ -202,7 +202,7 @@
         },
         "__collapseElse": false,
         "__disableElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -225,20 +225,17 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
-              "__collapse": true,
+              "__collapse": false,
               "$variable[V0]$": {
                 "type": "variable",
                 "value": "L0"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "T0"
               }
             },
             "id": "43f89e40-df79-42bb-b527-a262363bf1b3"
-          },
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "8ebc8eee-c4a8-40f6-9316-50f913cae49f"
-            },
-            "id": "68b17149-906e-4ae4-94d1-69e46fd1a0a4"
           }
         ],
         "false": []

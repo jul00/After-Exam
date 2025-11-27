@@ -273,7 +273,7 @@
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "0ef6d5d0-d63b-4ca8-8140-e3583e0f12f6"
           },
@@ -281,10 +281,14 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
-              "__collapse": true,
+              "__collapse": false,
               "$variable[V0]$": {
                 "type": "variable",
                 "value": "L0"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "T0"
               }
             },
             "id": "43222423-b83e-4fd4-8464-a66acb3928bd"

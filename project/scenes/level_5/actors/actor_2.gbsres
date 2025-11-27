@@ -313,7 +313,8 @@
           {
             "command": "EVENT_ACTOR_SHOW",
             "args": {
-              "actorId": "8ebc8eee-c4a8-40f6-9316-50f913cae49f"
+              "actorId": "8ebc8eee-c4a8-40f6-9316-50f913cae49f",
+              "__collapse": true
             },
             "id": "a170efca-1e9e-4477-9481-a2a4640f938f"
           }
@@ -363,10 +364,14 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "bdd8ba65-b295-4e4b-b2a2-4c3eb8498ce0",
-              "__collapse": true,
+              "__collapse": false,
               "$variable[V0]$": {
                 "type": "variable",
                 "value": "L0"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "T0"
               }
             },
             "id": "495b19c0-6f43-499d-a186-30425ceab4cc"

@@ -309,14 +309,6 @@
               }
             },
             "id": "82159a03-e65a-4507-96c1-0eac4e0fad27"
-          },
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "941d243a-496f-4800-9f48-66643a697e38",
-              "__collapse": true
-            },
-            "id": "102b47e6-2474-42c4-9070-3b23bbb7706c"
           }
         ],
         "false": []

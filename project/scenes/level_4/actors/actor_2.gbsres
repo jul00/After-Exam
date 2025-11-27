@@ -286,6 +286,10 @@
               "$variable[V0]$": {
                 "type": "variable",
                 "value": "L0"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "T0"
               }
             },
             "id": "e9a46488-6b98-40e1-bba8-7a1dad43e075"

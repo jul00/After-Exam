@@ -94,16 +94,6 @@
         "__collapse": false
       },
       "id": "7703d6f7-dc37-4955-84ac-edd3040604e0"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "5d96d145-fc8c-4c42-b7ee-a1c2aaae0a30",
-        "spriteStateId": "aggro",
-        "loopAnim": true,
-        "__collapse": false
-      },
-      "id": "09de3ede-50fa-49dc-baa6-6e63c0e90627"
     }
   ],
   "playerHit1Script": [],

@@ -185,14 +185,6 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "bd114904-b974-46b2-acfc-d714241f972b",
-        "__collapse": false
-      },
-      "id": "6c3ce316-b108-4ad1-8dc1-3e46ba6efcf9"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
         "customEventId": "e8cffe7e-a498-4682-92e7-43912ca0f01e",
         "__collapse": true
       },
@@ -215,9 +207,17 @@
           "type": "variable",
           "value": "1"
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "eb8a38d6-ce70-4a69-af75-ac60a5aaa09c"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bd114904-b974-46b2-acfc-d714241f972b",
+        "__collapse": false
+      },
+      "id": "6c3ce316-b108-4ad1-8dc1-3e46ba6efcf9"
     }
   ],
   "playerHit3Script": [],

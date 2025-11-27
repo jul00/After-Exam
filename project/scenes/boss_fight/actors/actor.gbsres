@@ -57,12 +57,35 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_INC_VALUE",
+            "command": "EVENT_IF",
             "args": {
-              "variable": "1",
-              "__collapse": true
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 5
+                }
+              },
+              "__collapseElse": true
             },
-            "id": "bcc5c40f-511e-47dc-9093-a9b63bf8dbab"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "__collapse": true
+                  },
+                  "id": "bcc5c40f-511e-47dc-9093-a9b63bf8dbab"
+                }
+              ],
+              "false": []
+            },
+            "id": "6217c212-b9f2-420b-82b0-54a1badf20fe"
           },
           {
             "command": "EVENT_DEC_VALUE",

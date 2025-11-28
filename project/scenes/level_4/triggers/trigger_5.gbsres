@@ -79,16 +79,12 @@
         "true": [
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "b0a4971a-1389-4e40-ade5-02c732e89955"
-            },
+            "args": {},
             "id": "3ebc0962-2737-4715-a7fa-576d825418fc"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "8045e1d0-ac2e-4060-ac3a-4a8987c3526c"
-            },
+            "args": {},
             "id": "c3a92193-1b85-4a99-acce-4c0cbcd1d617"
           }
         ]

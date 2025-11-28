@@ -13,8 +13,8 @@
   "collisions": "0058+024+0010+0f4+0010+0f4+00e+0f8+005b+01a+005+0f!0013+0f!0013+0f!012+0011+0f!0013+0f14+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 1784,
-  "y": 232,
+  "x": 1816,
+  "y": 224,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -175,7 +175,8 @@
         "variable": "L0",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "70223509-b440-4276-81e0-4e89640eceaa"
     }
@@ -215,7 +216,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bd114904-b974-46b2-acfc-d714241f972b",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "6c3ce316-b108-4ad1-8dc1-3e46ba6efcf9"
     }

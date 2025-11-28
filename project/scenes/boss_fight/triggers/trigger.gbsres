@@ -89,7 +89,7 @@
                 "type": "number",
                 "value": 2
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "936d4bce-1807-4389-bb56-b5f164d03d95"
           },
@@ -109,7 +109,7 @@
                 "type": "number",
                 "value": 3
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "0871a593-35ef-40ee-8cfa-b44e2eb1e715"
           },
@@ -129,7 +129,7 @@
                 "type": "number",
                 "value": 6
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "ba3d0e41-9229-4237-bb1e-23ded6d62031"
           },
@@ -149,7 +149,7 @@
                 "type": "number",
                 "value": 7
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "11d1c753-02b7-47ed-a77c-3fb07762e2cc"
           },

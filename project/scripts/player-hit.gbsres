@@ -47,9 +47,9 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.25,
+        "time": 0.1,
         "frames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "724a7dd2-dac4-4a14-91ba-eb20539d18ee"
     },
@@ -64,9 +64,9 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.25,
+        "time": 0.1,
         "frames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3e1e203a-29dd-46ac-8d4d-58f3ae3df32d"
     },
@@ -74,16 +74,16 @@
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "504e8fa0-126a-4874-849d-6058e67d3b76"
     },
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.25,
+        "time": 0.1,
         "frames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "1d614717-ba4c-4d22-bdd0-abba23a3d759"
     },
@@ -98,9 +98,9 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.25,
+        "time": 0.1,
         "frames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "2884119a-3a80-4604-908c-6112b4d252a3"
     },

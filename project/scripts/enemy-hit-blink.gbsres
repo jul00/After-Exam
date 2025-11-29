@@ -98,7 +98,7 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.2,
+              "time": 0.1,
               "frames": 30,
               "__collapse": true
             },
@@ -121,14 +121,15 @@
               "frequency": 200,
               "duration": 0.5,
               "wait": true,
-              "effect": 0
+              "effect": 0,
+              "__collapse": true
             },
             "id": "c4134264-c12d-4859-a034-461a4bebf5d8"
           },
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.2,
+              "time": 0.1,
               "frames": 30,
               "__collapse": true
             },
@@ -145,7 +146,7 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.2,
+              "time": 0.1,
               "frames": 30,
               "__collapse": true
             },

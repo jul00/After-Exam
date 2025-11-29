@@ -7,11 +7,11 @@
     },
     {
       "id": "plat_run_acc",
-      "value": 148
+      "value": 525
     },
     {
       "id": "plat_walk_acc",
-      "value": 113
+      "value": 137
     },
     {
       "id": "plat_climb_vel",
@@ -39,7 +39,11 @@
     },
     {
       "id": "plat_hold_grav",
-      "value": 386
+      "value": 600
+    },
+    {
+      "id": "plat_run_vel",
+      "value": 11273
     }
   ]
 }

@@ -96,7 +96,39 @@
       "id": "4445a6fd-86fb-4e20-8dec-32557b495dc1"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "69154ef4-9631-4705-be27-86d530daf2b1"
+          }
+        ],
+        "false": []
+      },
+      "id": "b6280c8b-ffa0-4c29-b206-92bca9d44387"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

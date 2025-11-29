@@ -17,6 +17,18 @@
   "y": 48,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "T0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "42527ab3-9347-41ed-83c8-6052e8858d0c"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "b5d50170-ce3c-421d-bcc5-b23a2da97c3d",
@@ -30,7 +42,7 @@
         "input": [
           "b"
         ],
-        "override": true,
+        "override": false,
         "__scriptTabs": "press",
         "__collapse": true
       },
@@ -70,6 +82,18 @@
         "__collapse": true
       },
       "id": "34bca54f-1c13-4d9f-a38a-efb8333adf8d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "b3a72a6e-6ddb-4612-b6d0-a4bbeb8ddb8d"
     }
   ],
   "playerHit1Script": [],

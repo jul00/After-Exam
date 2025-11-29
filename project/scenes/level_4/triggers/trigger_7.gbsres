@@ -11,11 +11,24 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "621fbf66-738e-4882-8ac4-8a6085bdb405",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "75c92082-8064-4fea-93ad-84c138bc6868"
+    },
+    {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
         "actorId": "$self$",
         "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "644c68c4-201f-4f2e-80ed-a108c0a89e9f"
     },

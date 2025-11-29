@@ -81,6 +81,19 @@
         "actorId": "$self$"
       },
       "id": "c52fe749-be3d-4d6f-a2dd-5bbfa5fc8679"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "48e27e95-c918-4a12-a75e-be3544a57ade",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "4445a6fd-86fb-4e20-8dec-32557b495dc1"
     }
   ],
   "startScript": [],

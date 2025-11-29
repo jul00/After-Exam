@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "e08a2f74-40e2-434f-8c19-4443a51e0e16",
+  "name": "game over",
+  "symbol": "song_game_over",
+  "filename": "game over.uge",
+  "settings": {},
+  "type": "uge"
+}
